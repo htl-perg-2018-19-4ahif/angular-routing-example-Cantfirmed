@@ -1,0 +1,10 @@
+    
+Type in a pokemon name to search: <br>
+
+<input type='text' [(ngModel)]='filter'  (change)='onFilterChange()'> <br>
+
+Search results for <b> {{filter}}</b>: 
+
+<ul *ngFor='let pokemon of pokelist;let i=index'>
+  <a [hidden]='!pokemon.name.toUpperCase().includes(filter.toUpperCase())' routerLink='{{i+1}}'  > {{pokemon.name}}</a> 
+</ul>
