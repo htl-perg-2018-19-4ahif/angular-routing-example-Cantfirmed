@@ -12,9 +12,9 @@ You have to create an Angular 7 app that uses the Angular router. **Note** that 
 
 * Display a list of all Pokemon names under the URL *http://yourserver/pokemon*. Every Pokemon name should be a hyperlink to a site with details about the Pokemon (see requirement regarding *Pokemon details* below).
 
-* The user must be able to enter a part of a Pokemon name (e.g. *charm*) to filter the Pokemon list. If the user does not enter a filter string, display the entire list of pokemon. ***Note** that it is not enough to just process the first 20 pokemon from the PokeAPI, you have to process all pokemon.
+* The user must be able to enter a part of a Pokemon name (e.g. *charm*) to filter the Pokemon list. If the user does not enter a filter string, display the entire list of Pokemon. ***Note** that it is not enough to just process the first 20 Pokemon from the PokeAPI, you have to process all Pokemon.
 
-* If the user does not enter any path in the URL (i.e. just *http://yourserver/*), redirect the user to the list of pokemon (i.e. *http://yourserver/pokemon*).
+* If the user does not enter any path in the URL (i.e. just *http://yourserver/*), redirect the user to the list of Pokemon (i.e. *http://yourserver/pokemon*).
 
 * Pokemon details must be reachable at *http://yourserver/pokemon/1* (where *1* is the ID of the Pokemon).
 
